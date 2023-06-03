@@ -1,0 +1,31 @@
+.main_text{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 80%;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+
+.intro{
+    gap: 10px;
+}
+
+.sub_text{
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+
+    color: #000000;
+}
+
+
+
+.color_text{
+    color: #EA9090;
+}
+

@@ -1,0 +1,55 @@
+.footer_title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.fotter_text {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.text_items {
+    gap: 10px;
+}
+
+.footer_text_items2 {
+    gap: 21px;
+}
+
+.footer_text_items {
+    gap: 56px;
+}
+
+
+.socials {
+    gap: 25px;
+}
+
+.info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    letter-spacing: 0.3px;
+
+    color: #333333;
+
+}
+
+footer{
+    gap: 200px;
+    padding-top: 4.5rem;
+}
