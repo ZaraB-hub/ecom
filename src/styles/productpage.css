@@ -1,0 +1,22 @@
+.container{
+    margin: 0;
+    width: 100%;
+}
+
+.p_text{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 55px;
+/* identical to box height, or 393% */
+
+display: flex;
+align-items: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.items{
+    gap: 48px;
+}
+
