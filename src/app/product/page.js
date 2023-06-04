@@ -12,7 +12,7 @@ export default function Product() {
 
         <>
         <div className="flex items-center justify-center">
-            <div className="w-1/2 images items-center justify-center">
+            <div className="w-1/2 images items-center justify-center pb-10">
                 <div className="dif_images">
                 </div>
                 <div className="main_img pt-10 ">

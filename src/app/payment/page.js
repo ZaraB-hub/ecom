@@ -18,6 +18,8 @@ export default function Payment() {
                                 id="cardNumber"
                                 placeholder="Enter card number"
                                 required
+                                className='p-1'
+
                             />
                         </div>
                         <div className='flex flex-col pb-3'>
@@ -27,6 +29,8 @@ export default function Payment() {
                                 id="cardHolderName"
                                 placeholder="Enter cardholder name"
                                 required
+                                className='p-1'
+
                             />
                         </div>
                         <div className="flex card_gap">
@@ -37,6 +41,8 @@ export default function Payment() {
                                     id="expiryDate"
                                     placeholder="MM/YY"
                                     required
+                                    className='p-1'
+
                                 />
                             </div>
                             <div className='flex flex-col pb-3 '>
@@ -46,6 +52,8 @@ export default function Payment() {
                                     id="cvv"
                                     placeholder="Enter Security Code"
                                     required
+                                    className='p-1'
+
                                 />
                             </div>
                         </div>
