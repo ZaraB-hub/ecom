@@ -18,11 +18,8 @@ const ProductList = ({ title }) => {
       <div className="title m-5 text-center">{title}</div>
       <div className="flex justify-between px-5">
         <img src="/assets/icons/left.svg" alt=""  onClick={slideLeft}  />
-        <div className="product_list flex justify-around flex-grow gap_30 overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide">
+        <div className="product_list flex justify-around flex-grow gap_30 ">
           
-            <ProductComponent />
-            <ProductComponent />
-            <ProductComponent />
             <ProductComponent />
             <ProductComponent />
             <ProductComponent />
