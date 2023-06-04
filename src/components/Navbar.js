@@ -8,21 +8,21 @@ const Navbar = () => {
                     <img
                         src="/assets/images/logo.png"
                         alt="Logo"
-                        className=" nav_logo items-center pt-3"
+                        className=" nav_logo items-center pt-3 cursor-pointer"
                     />
                 </div>
 
             <div className="nav_text flex items-center">
-                <div className="nav__text">New</div>
-                <div className="nav__text">Clothes </div>
-                <div className="nav__text">acessories </div>
-                <div className="nav__text">sale </div>
+                <div className="nav__text cursor-pointer">New</div>
+                <div className="nav__text cursor-pointer">Clothes </div>
+                <div className="nav__text cursor-pointer">acessories </div>
+                <div className="nav__text cursor-pointer">sale </div>
             </div>
 
             <div className="flex items-center icons">
-                <img src="assets/icons/search.svg" alt="" />
-                <img src="assets/icons/heart.svg" alt="" />
-                <img src="assets/icons/iconbag.svg" alt="" />
+                <img src="assets/icons/search.svg" alt="" className='cursor-pointer' />
+                <img src="assets/icons/heart.svg" alt="" className='cursor-pointer'/>
+                <img src="assets/icons/iconbag.svg" alt="" className='cursor-pointer'/>
             </div>
 
         </nav >

@@ -8,6 +8,7 @@
     text-transform: uppercase;
 
     color: #333333;
+    cursor: pointer;
 }
 
 .fotter_text {
@@ -18,6 +19,7 @@
     letter-spacing: 0.6px;
     text-transform: uppercase;
     color: #333333;
+    cursor: pointer;
 }
 
 .text_items {

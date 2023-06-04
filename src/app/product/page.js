@@ -1,42 +1,35 @@
+
 import ProductComponent from "@/components/Product";
+import ProductList from "@/components/ProductList";
 import '@/styles/productpage.css'
+import Image from 'next/image';
 
-export default function Category() {
-  return (
 
-    <>
-      <div className="title text-center p-10"> category name</div>
-      <div className="flex content-center justify-between px-14 pb-5">
 
-        <div className="flex content-center p_text ">
-          filter
-          <img src="/assets/icons/icondown.svg" alt="" className="ms-3" />
+
+export default function Product() {
+    return (
+
+        <>
+        <div className="flex items-center justify-center">
+            <div className="w-1/2 images items-center justify-center">
+                <div className="dif_images">
+                </div>
+                <div className="main_img pt-10 ">
+                    <Image
+                    src="/assets/images/blush.webp"
+                    alt="product img"
+                    width={300}
+                    height={500}
+                    id="product_img"/>
+                </div>
+             </div>
+            <div className="information items-center justify-center">bye</div>
         </div>
 
-        <div className=" items-center p_text">
-          30 items
-        </div>
+        <ProductList/>
+        <div className="pb-24"></div>
+        </>
 
-        <div className="flex items-center p_text ">
-          sort by
-          <img src="/assets/icons/icondown.svg" alt="" className="ms-3" />
-        </div>
-
-      </div >
-      <div className="items flex-wrap flex justify-between  px-14">
-        <ProductComponent />
-        <ProductComponent />
-        <ProductComponent />
-        <ProductComponent />
-        <ProductComponent />
-        <ProductComponent />
-
-
-        <ProductComponent />
-
-      </div>
-
-    </>
-
-  )
+    )
 }
