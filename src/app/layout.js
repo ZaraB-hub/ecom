@@ -4,6 +4,7 @@ import '@/styles/navbar.css'
 import '@/styles/product.css'
 import '@/styles/productlist.css'
 import '@/styles/footer.css'
+import '@/styles/buttons.css'
 
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
