@@ -2,11 +2,12 @@
 font-family: 'Segoe UI';
 font-style: normal;
 font-weight: 600;
-font-size: 80px;
+font-size: clamp(40px, 5vw, 80px);
 line-height: 80%;
 text-align: center;
 letter-spacing: 0.05em;
 text-transform: uppercase;
+padding-top: 10px;
 }
 
 .intro{
@@ -18,7 +19,8 @@ text-transform: uppercase;
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: clamp(13px, 26px);
+    text-align: center;
 
     color: #000000;
 }

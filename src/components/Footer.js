@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-red-100 flex  pb-10 ">
-      <div className="w-1/2 flex justify-center footer_text_items ps-20">
+    <footer className="bg-red-100 flex  flex-col md:flex-row  pb-10 items-center ">
+      <div className="w-1/2 flex justify-center footer_text_items ps-20  txtsm">
 
         <div className="flex flex-col text_items">
           <h6 className='footer_title'>shop</h6>
@@ -29,13 +29,13 @@ const Footer = () => {
 
       </div>
 
-      <div className="w-1/2 flex flex-col justify-center footer_text_items2">
+      <div className="w-1/2 flex flex-col justify-center footer_text_items2 ">
         <div className='footer_title whitespace-pre-wrap no-pointer'>Sign up to our newsletter. Don’t miss<br></br>
           out on our dreamy new product<br></br>
           drops or exclusive offers.</div>
           
         <div>
-          <div className='flex'>
+          <div className='flex btnsm'>
             <input
               type="email"
               placeholder="Enter your email"

@@ -2,7 +2,7 @@
 font-family: 'Segoe UI';
 font-style: normal;
 font-weight: 600;
-font-size: 40px;
+font-size: clamp(20px, 2vw, 40px);
 letter-spacing: 0.3px;
 text-transform: uppercase;
 }
@@ -12,3 +12,11 @@ text-transform: uppercase;
 .gap_30{
     gap: 40px;
 }
+
+@media (min-width: 768px) {
+    .product_list{
+align-items: center;   
+}
+   
+
+  }

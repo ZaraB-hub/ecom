@@ -2,7 +2,7 @@
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 700;
-    font-size: 13px;
+    font-size: clamp(6px, 13px);
     line-height: 20px;
     letter-spacing: 0.6px;
     text-transform: uppercase;
@@ -15,7 +15,7 @@
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: clamp(5px, 12px);
     letter-spacing: 0.6px;
     text-transform: uppercase;
     color: #333333;
@@ -55,3 +55,19 @@ footer{
     gap: 200px;
     padding-top: 4.5rem;
 }
+
+@media (max-width: 768px) {
+    .btnsm{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txtsm{
+        margin: 0;
+        padding: 0;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+
+  }

@@ -38,3 +38,18 @@ nav {
 .icons{
     gap:17px
 }
+
+@media (max-width: 768px) {
+    .img_container {
+      justify-content: center;
+      width: 70%;
+    }
+  
+    .nav_text{
+      display: none;
+    }
+
+    .icons{
+        gap: 10px;
+    }
+  }
