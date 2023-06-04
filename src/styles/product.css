@@ -33,3 +33,34 @@ text-transform: uppercase;
 
 color: #000000;
 }
+
+
+.product {
+    position: relative;
+  }
+  
+  .img {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .overlay:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .img:hover .overlay {
+    opacity: 1;
+  }
+  

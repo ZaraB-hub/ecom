@@ -2,6 +2,7 @@ import ProductList from '@/components/ProductList';
 import Image from 'next/image';
 import PinkButton from '@/components/PinkButton'
 import '@/styles/payment.css'
+import Link from "next/link";
 
 export default function Payment() {
     return (
@@ -62,8 +63,12 @@ export default function Payment() {
 
                 </div>
             </div>
-            <PinkButton />
-            <p className="return pt-6	">return to shipping</p>
+            <Link href="/">
+                        <PinkButton text={"pay now"} />
+                    </Link>
+                    <Link href="/shipping">
+                        <p className="return pt-6 mx-22	pb-6 text-center">return to shipping</p>
+                    </Link>
         </div>
 
 

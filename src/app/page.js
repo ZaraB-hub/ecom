@@ -1,12 +1,13 @@
 import ProductList from '@/components/ProductList';
 import Image from 'next/image';
+import Link from "next/link";
 
 export default function Home() {
   return (
     
     <>
     <div className="flex start mb-10">
-      <div class='w-1/2 flex flex-col items-center justify-center intro'>
+      <div className='w-1/2 flex flex-col items-center justify-center intro'>
             <div className='main_text'>fashion</div>
             <div className='main_text'>that</div>
             <div className='color_text main_text'>empowers</div>
@@ -24,8 +25,8 @@ export default function Home() {
       </div>
     </div>
 
-    <ProductList/>
-    <ProductList/>
+    <ProductList title="Best Sellers" />
+      <ProductList title="Featured Items" />
     </>
     
   

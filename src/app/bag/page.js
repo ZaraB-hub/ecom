@@ -2,6 +2,7 @@
 import PinkButton from '@/components/PinkButton'
 import PriceComponent from '@/components/PriceComponent'
 import '@/styles/bag.css'
+import Link from "next/link";
 
 
 export default function Bag() {
@@ -28,7 +29,7 @@ export default function Bag() {
                             <div className="subtotal">SUBTOTAL</div>
                             <div id='order_price'>$ 128.00</div>
                         </div>
-                        <button className="btn pink_button border-2 border-black text-white p-2 px-10 font-bold text-base w-80">CHECKOUT NOW</button>
+                        <Link href="/shipping"><button className="btn pink_button border-2 border-black text-white p-2 px-10 font-bold text-base w-80">CHECKOUT NOW</button></Link>
     
 
                     </div>

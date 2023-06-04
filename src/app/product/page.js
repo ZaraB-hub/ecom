@@ -24,10 +24,11 @@ export default function Product() {
                     id="product_img"/>
                 </div>
              </div>
+
             <div className="information items-center justify-center">bye</div>
         </div>
 
-        <ProductList/>
+        <ProductList title={"You'll like these too"}/>
         <div className="pb-24"></div>
         </>
 

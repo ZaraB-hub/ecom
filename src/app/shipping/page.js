@@ -1,6 +1,7 @@
 import PinkButton from '@/components/PinkButton'
 import PriceComponent from '@/components/PriceComponent'
 import '@/styles/payment.css'
+import Link from "next/link";
 import '@/styles/shipping.css'
 import '@/styles/bag.css'
 import ShippingComponent from '@/components/ShippingComponent'
@@ -92,8 +93,12 @@ export default function Shipping() {
                     </div>
                 </div>
                 <div className="mx-36">
-                    <PinkButton />
-                    <p className="return pt-6 mx-22	pb-6 text-center">return to shipping</p>
+                    <Link href="/payment">
+                        <PinkButton text={"continue to payment"} />
+                    </Link>
+                    <Link href="/bag">
+                        <p className="return pt-6 mx-22	pb-6 text-center">return to cart</p>
+                    </Link>
                 </div>
 
 
