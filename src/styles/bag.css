@@ -1,0 +1,55 @@
+.order_summary{
+    width: 350px;
+}
+
+.order_title{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 100% */
+
+
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+.order_subtext{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    
+  
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.line_color{
+    border-bottom:1px solid #E2A9A9
+}
+
+.subtotal{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+#order_price{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
