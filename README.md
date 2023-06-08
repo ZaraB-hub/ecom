@@ -1,3 +1,9 @@
+deployment: https://main--benevolent-crisp-1f6b66.netlify.app/
+
+v2:https://github.com/ZaraB-hub/ecom (redux) {https://bejewelled-basbousa-8d166b.netlify.app/}
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
